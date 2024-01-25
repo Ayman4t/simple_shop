@@ -6,10 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
   
 }
-.body{
-    perspective: 700px;
-    
-}
+
 main{
     width: 100%;
     height: 100vh;
@@ -38,17 +35,13 @@ main{
 header{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    
     align-items: center;
 
 }
 .himg{
     margin-right: 20px;
     margin-top: 50px;
-
-    /* margin-left: 50px; */
-   
-  
 }
 .hitems{
    display: flex;
@@ -70,22 +63,20 @@ header a{
     text-decoration: none;
 }
 .nav,.lastitem{
-    /* border: 2px solid green; */
+  
     padding: 5px 10px 5px 10px;
     
 }
 .nav,.lastitem {
     text-decoration: none;
     transition: 1s;
-    /* color: white; */
     padding: 5px 10px;
-    border: 2px solid transparent; /* Border initially transparent */
-    border-radius: 5px; /* Optional: Add rounded corners */
+    border: 2px solid transparent; 
+    border-radius: 5px; 
   }
-  
-  /* Style for the frame when hovering over the link */
+
 .nav:hover,.lastitem:hover {
-    border-color: rgb(226, 131, 14); /* Change the border color on hover */
+    border-color: rgb(226, 131, 14); 
   }
 .hidden-table {
     transition: 1s;
@@ -94,10 +85,7 @@ header a{
     background-color: rgb(208, 207, 204);
     padding: 10px;
     border: 1px solid #ccc;
-    /* box-shadow: 0 2px 5px rgba(64, 58, 58, 0.1); */
     z-index: 1000; 
-    
-    /* Adjust the margin as needed */
   }
 .hidden-table td{
     color: #945d04;
@@ -191,10 +179,7 @@ header p{
 .secondimgs{
     margin-top: 20px;
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
-    /* align-items: flex-start; */
-
 }
 
 .secondimg{
@@ -544,7 +529,7 @@ margin-top: 10px;
 }
 .fivecontent{
     display: flex;
-   align-items: flex-end;
+   align-items: flex-start;
    justify-content:space-evenly ;
 }
 .front5{
@@ -565,11 +550,12 @@ margin-top: 10px;
     font-size: 30px;
 }
 .table5{
-    width: 100%;
+    width: 65%;
     display: flex;
-    margin: auto;
-    margin-left: 36%;
-    text-align: center;
+    margin-top: 30px;
+    /* margin: auto; */
+    margin-left: 30%;
+    /* text-align: center; */
 }
 .ayman{
     color: #663708;
